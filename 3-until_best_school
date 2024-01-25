@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script prints the string "Best School" 10 times using until loop
+
+a=0
+
+until [ $a == 10 ]
+do
+    echo "Best School"
+    ((a++))
+done;
