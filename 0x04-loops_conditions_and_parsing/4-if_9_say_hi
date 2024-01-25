@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script prints "Best School" 10 times. On the 9th iteration, print "Hi"
+
+a=0
+
+while [ $a -lt 10 ]
+do
+    ((a++))
+    if [[ $a == 9 ]]
+    then
+        echo "Hi"
+        continue
+    fi
+    echo "Best School"
+done;
