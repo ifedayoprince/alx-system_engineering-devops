@@ -8,6 +8,7 @@ do
     ((a++))
     if [[ $a == 9 ]]
     then
+        echo "Best School"
         echo "Hi"
         continue
     fi
