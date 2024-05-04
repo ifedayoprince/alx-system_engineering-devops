@@ -1,6 +1,6 @@
 #!/bin/bash
-
 # Function to start the process
+
 start_process() {
     echo "Starting manage_my_process..."
     /path/to/manage_my_process.sh &
