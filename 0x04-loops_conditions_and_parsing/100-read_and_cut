@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# This script displays the content of the file /etc/passwd.
+# It displays:
+# username
+# user id
+# Home directory path for the user
+
+while IPF= read -r line
+do
+    USER_ID=$(echo "$line" | tr -cd '[[:digit:]]')
+    echo "$USER_ID"
+done < /etc/passwd
