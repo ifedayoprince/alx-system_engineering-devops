@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script creates an RSA key pair with a 4096-bit key size and a passphrase.
+
+KEY_NAME="school"
+PASSPHRASE="betty"
+BITS="4096"
+
+ssh-keygen -t rsa -b $BITS -f $KEY_NAME -N $PASSPHRASE
